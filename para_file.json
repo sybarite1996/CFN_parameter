@@ -1,6 +1,6 @@
 ["KeyName=mackey1",
-    "AZName=ap-south-1b",
-    "InstType=t2.micro",
+    "AZName=ap-south-1a",
+    "InstType=t3.micro",
     "AMIID=ami-04893cdb768d0f9ee",
     "InstName = subhash_instance "
 ]
