@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage('Subhash Stack') {
+            steps {
+            sh """
+                    aws cloudformation deploy --stack-name subhashparam4 --template-file inst_y.yaml --parameter-overrides file://Inst_para.json --region 'ap-south-1' 
+
+                   
+                
+                """
+              }
+             }
+            }
+            }
